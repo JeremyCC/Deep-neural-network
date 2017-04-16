@@ -6,7 +6,7 @@
 # JeremyCC,2017/4/16
 ########################################
 import tensorflow as tf
-import  model.CNN as CNN
+import model.CNN as CNN
 import numpy as np
 
 ######### Parameters ##########
