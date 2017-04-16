@@ -30,7 +30,7 @@ kernel.append(np.array([5,5,64,64]))
 
 input_size=np.array([None,32,32,3])#[batch, in_height, in_width, in_channels]
 output_size=10
-featuremap=int(32/2**num_conv)# the width/hight of the last feature map
+featuremap=int(32/2**num_conv)# the width/hight of the last feature map, size changed by pooling layer(2*2)
 for stride_layer in stride:
     featuremap /= stride_layer[1]
 featuremap=int(featuremap)
