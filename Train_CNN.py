@@ -3,7 +3,7 @@
 # Make sure All training and testing
 # data are put in directory "cifar10"
 #
-# Chang Chi Tsung,2017/4/16
+# JeremyCC,2017/4/16
 ########################################
 import tensorflow as tf
 import  model.CNN as CNN
