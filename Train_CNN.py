@@ -103,5 +103,5 @@ with tf.Session() as sess:
                                               mymodel.drop: 1.0})
             print("Iteration:{0}  Testing accuracy:{1}".format(i, accu))
             writer.add_summary(merge, i)
-            print('Save model to:saver/my-model-{}'.format(iteration))
+            print('Save model to:'+save_dir+'/my-model-{}'.format(iteration))
             saver.save(sess, save_dir + '/my-model', global_step=iteration)
